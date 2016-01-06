@@ -1,0 +1,461 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300,900);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif !important;
+	color: #111;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em !important;
+	font-weight: 700 !important;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em !important;
+	font-weight: 700 !important;
+}
+
+h3 {
+	color: #5d6c6c !important;
+	font-size: 1.4em !important;
+	font-weight: 400 !important;
+	text-align: center;
+}
+
+p {
+	font-size: 1.3em !important;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+button {
+    border: none;
+}
+
+nav {
+	height: 80px;
+	margin-top: -20px;
+	padding-bottom: -20px;
+	font-weight: 700;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
+
+
+/*---------------------Background video--------------------*/
+.fullscreen-bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+	padding-top: 0 !important;
+}
+
+#bgVideo {
+	width: 100%;
+	height: auto;
+}
+
+
+/*-------------------------Banner-------------------------*/
+#banner {
+	height: auto;
+	padding-top: 18px;
+}
+
+#banner .container {
+	margin-top: 150px;
+
+}
+
+#banner h1 {
+	color: white;
+	text-shadow: 0px 1px #bbb;
+}
+
+#banner button {
+	margin-top: 100px;
+    margin-left: 35%;
+	color: white;
+	background-color: #0a4a9a;
+	width: 27%;
+	height: 45px;
+    font-size: 1.3em;
+    border-radius: 30px;
+}
+
+#banner button:hover {
+	background-color: white;
+	color: #0a4a9a;
+}
+
+.navbar-brand {
+	padding: 30px 15px !important;
+}
+
+.navbar-brand img{
+	width:  150px;;
+	height: auto;
+	vertical-align: middle;
+	margin-top: -10px;
+}
+
+.navbar-collapse a {
+	color: white;
+	text-align: center;
+	padding-top: 30px !important;
+	width: 120px;
+	height: 80px;
+	text-shadow: 0px 1px #bbb;
+}
+
+.navbar-collapse a:hover {
+	background-color: white !important;
+	color: #0a4a9a !important;
+}
+
+.navbar-collapse li:hover {
+	background-color: white;
+	color: #0a4a9a;
+}
+
+.navbar-collapse .active {
+	background-color: #0a4a9a;
+}
+
+
+/*---------------------------Services------------------------*/
+#services {
+	padding-top: 78px;
+	padding-bottom: 0;
+}
+
+#services h3 {
+	margin-top: 0;
+}
+
+#services header img {
+	margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.arrow {
+	margin-left: 49%;
+	margin-bottom: 15px;
+	color: #5d6c6c;
+}
+
+
+.content h2 {
+	font-size: 1.5em !important;
+}
+
+.content img {
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+	z-index: -100;
+}
+
+.collage {
+	margin-top: 15px;
+}
+
+.collage div {
+	padding: 0;
+	height: 296px;
+	color: white;
+}
+
+.collage div:nth-child(1) {
+	background: #ffffff url("../img/services-4.png") no-repeat left top;
+	background-size: 101%;
+}
+
+.collage div:nth-child(2) {
+	background: #ffffff url("../img/services-5.png") no-repeat left top;
+	background-size: 101%;
+}
+
+.collage div:nth-child(3) {
+	background: #ffffff url("../img/services-6.png") no-repeat left top;
+	background-size: 100%;
+}
+
+.collage div:nth-child(4) {
+	background: #ffffff url("../img/services-7.png") no-repeat left top;
+	background-size: contain;
+}
+
+.collage h2 {
+	line-height: 1.3;
+}
+
+.collage img {
+	margin-top: 100px;
+    margin-left: 49%;
+}
+
+.collage div:nth-child(1) img {
+	width: 30px;
+}
+
+.collage div:nth-child(2) img {
+	width: 22px;
+}
+
+.collage div:nth-child(3) img {
+	width: 18px;
+}
+
+.collage div:nth-child(4) img {
+	width: 21.5px;
+}
+
+.collage button {
+	color: #1d2d3a;
+	margin-left: 40%;
+    margin-top: 10px;
+    background-color: #f4e215;
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.collage button:hover {
+	background-color: white;
+	color: #0a4a9a;
+}
+
+
+/*---------------------------About------------------------------*/
+#about {
+	padding-top: 30px;
+}
+
+#about h2 {
+	margin-top: 0;
+}
+
+#about h3 {
+	margin-top: 0;
+}
+
+#about header img {
+	margin-left: 46%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#about button {
+	margin-top: 50px;
+	margin-left: 35%;
+	background-color: #0a4a9a;
+	width: 27%;
+	height: 45px;
+    font-size: 1.3em;
+    border-radius: 30px;
+}
+
+#about button:hover {
+	background-color: #f4e215;
+}
+
+#about button + p {
+	text-align: center;
+	color: #5d6c6c;
+	font-size: 1em !important;
+	margin-top: 10px;
+}
+
+#about a {
+	color: white;
+}
+
+#about a:hover {
+	color: #0a4a9a;
+	text-decoration: none;
+}
+
+#about .arrow {
+	margin-top: 10px;
+}
+
+#success {
+	height: 440px;
+	background: #ffffff url("../img/story.png") no-repeat left top;
+	background-size: contain;
+	color: white;
+}
+
+#success h2 {
+	font-weight: 400 !important;
+	margin-top: 120px;
+}
+
+#success h1 {
+	margin-top: 0;
+}
+
+#success button {
+	color: #1d2d3a;
+	background-color: #f4e215;
+	height: 35px;
+    border-radius: 20px;
+    width: 16%;
+    margin-left: 42%;
+    margin-top: 30px;
+    font-size: 1em !important;
+	font-weight: 700 !important;
+}
+
+#success button:hover {
+	background-color: white;
+	color: #0a4a9a;
+}
+
+#team .photo img {
+	width: 17%;
+    margin: 35px 1.3%;
+}
+
+.staff {
+	background-color: #08767a;
+	border-radius: 5px;
+	color: white;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.staff h3 {
+	color: white !important;
+	margin-bottom: 25px;
+}
+
+.staff p {
+	font-weight: 300 !important;
+	text-align: center;
+}
+
+/*---------------------------Contact-----------------------------*/
+#contact {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: white;
+	text-align: center;
+}
+
+#contact > div {
+	background: #ffffff url("../img/contact-1.png") no-repeat left top;
+	background-size: contain;
+	height: 261px;
+}
+
+#contact h2 {
+	margin-top: 50px;
+}
+
+#contact h3 {
+	color: #f4e215 !important;
+	margin-top: 0;
+}
+
+#contact span {
+	width: 50px;
+	height: 50px;
+    float: left;
+    padding-top: 13px;
+}
+
+#contact .line {
+	width: 1px;
+	background-color: white;
+	margin-right: 10px;
+    margin-top: 5px;
+    height: 35px;
+}
+
+#contact p {
+	font-size: 1em !important;
+}
+
+#contact button {
+	background-color: transparent;
+	border: 1px solid white;
+	padding: 10px 10px 10px 20px;
+	margin-top: 5px;	
+}
+
+#contact button span {
+	float: none;
+	width: 30px;
+    height: auto;
+    padding-top: 0;
+}
+
+#contact button:hover {
+	background-color: white;
+	color: #0a4a9a;
+}
+
+#contact-info {
+	margin-top: 50px;
+}
+
+iframe {
+	width: 100%;
+}
+
+/*----------------------------Footer-----------------------------*/
+footer {
+	margin-top: -5px;
+	width: 100%;
+	height: 120px;
+	background-color: #0c54ae;
+	color: white;
+}
+
+footer p {
+	font-size: 0.9em !important;
+	margin-top: 55px;
+}
+
+footer img {
+	width: 88px;
+	margin-top: 20px;
+	margin-left: 35%;
+}
+
+footer a {
+	font-size: 0.9em !important;
+	width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+    color: white;
+    font-weight: 900;
+}
+
+footer a:hover {
+	background-color: #0a4a9a;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+footer div:nth-child(3) {
+	margin-top: 50px;
+}
